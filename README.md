@@ -1,9 +1,8 @@
 
 # Real-Time Data Pipeline with Kafka and Spark
-_________________________________________________________________________________________________________________________________________
 
-##### Table of Contents
-_________________________________________________________________________________________________________________________________________
+### Table of Contents
+
 
 - Introduction
 - System Architecture
@@ -11,14 +10,12 @@ ________________________________________________________________________________
 - Additional Details
 
 
-###### Introduction 
-_________________________________________________________________________________________________________________________________________
+#### Introduction 
 
 This project is an end-to-end Data Engineering solution utilizing Spark, Kafka, Airflow, Docker, Cassandra, and Python. It fetches data from an API via scheduled scripts, sends it to Kafka using Airflow, processes it with Spark Structured Streaming, and stores it in Cassandra. All components are containerized with Docker for seamless integration and scalability.
 
 
-###### System Architecture
-_________________________________________________________________________________________________________________________________________
+#### System Architecture
 
 ![System Architeture](architecture.png)
 
@@ -31,8 +28,7 @@ This project features a comprehensive data pipeline designed with the following 
 - Apache Spark: Utilizes its master and worker nodes for efficient data processing, transforming incoming data and preparing it for storage.
 - Cassandra: Serves as the final storage solution for processed data, offering scalability and high availability.
 
-###### Technologies
-_________________________________________________________________________________________________________________________________________
+#### Technologies
 
 - Apache Airflow: 2.6.0 for workflow orchestration
 - Python: >= 3.9 for scripting and data manipulation
@@ -45,8 +41,7 @@ ________________________________________________________________________________
 - Java: 11.0.22 for running Java-based components
 - Scala: 2.12 for Spark and Kafka integration
 
-###### Additional Details 
-_________________________________________________________________________________________________________________________________________
+#### Additional Details 
 
 - Integrate Jars: (https://mvnrepository.com/artifact)
   - spark-cassandra-connector_2.12:3.4.1 for connecting Spark to Cassandra
