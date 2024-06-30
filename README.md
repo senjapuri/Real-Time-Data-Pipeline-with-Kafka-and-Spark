@@ -1,5 +1,5 @@
-# Realtime Data Streaming | End-to-End Data Pipeline
-## Real-Time Data Pipeline with Kafka and Spark
+
+# Real-Time Data Pipeline with Kafka and Spark
 _________________________________________________________________________________________________________________________________________
 
 ##### Table of Contents
